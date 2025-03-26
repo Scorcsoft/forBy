@@ -1,6 +1,8 @@
 # forBy
 一款图形化的 .DS_Store文件泄露、.git目录泄露、.svn目录泄露漏洞利用工具。
 
+<img src="ScorcsoftAssets/screenshot/index.jpg"></img>
+
 # 开始使用
 本工具使用Python3 + PyQt5开发，在开始使用前，请确保已经安装了相关模块：
 
@@ -52,13 +54,13 @@ http://127.0.0.1:8000/.DS_Store
 
 然后点击开始按钮 .DS_Store 解析模块就会尝试下载并递归解析 .DS_Store 文件，尽可能还原网站目录：
 
-![](/Users/walter/Documents/code/forBy/ScorcsoftAssets/screenshot/DS_Store_1.jpg)
+<img src="/ScorcsoftAssets/screenshot/DS_Store_1.jpg"></img>
 
 
 ### 解析已经下载到本地的 .DS_Store (不支持递归)
 如果你已经将 .DS_Store 文件下载到本地，也可以解析本地的 .DS_Store 文件，只需要输入文件路径即可：
 
-![](/Users/walter/Documents/code/forBy/ScorcsoftAssets/screenshot/DS_Store_2.jpg)
+<img src="/ScorcsoftAssets/screenshot/DS_Store_2.jpg"></img>
 
 ## 为什么解析本地文件不支持递归解析？
 这是因为 .DS_Store 文件只会记录当前目录的目录结构，而无法记录当前目录下的子目录内的结构。
@@ -73,17 +75,17 @@ http://127.0.0.1:8000/.DS_Store
 ## 查看文件/目录属性
 在左侧的目录结构树中的右键菜单支持查看 .DS_Store 文件中记录的文件和子目录的属性：
 
-![](/Users/walter/Documents/code/forBy/ScorcsoftAssets/screenshot/DS_Store_3.jpg)
+<img src="/ScorcsoftAssets/screenshot/DS_Store_3.jpg"></img>
 
 ## 导出解析结果
 本工具支持导出解析结果，保存到本地文件：
 
-![](/Users/walter/Documents/code/forBy/ScorcsoftAssets/screenshot/DS_Store_4.jpg)
+<img src="/ScorcsoftAssets/screenshot/DS_Store_4.jpg"></img>
 
-![](/Users/walter/Documents/code/forBy/ScorcsoftAssets/screenshot/DS_Store_5.jpg)
+<img src="/ScorcsoftAssets/screenshot/DS_Store_5.jpg"></img>
 
 查看导出的解析结果：
 
-![](/Users/walter/Documents/code/forBy/ScorcsoftAssets/screenshot/DS_Store_6.jpg)
+<img src="/ScorcsoftAssets/screenshot/DS_Store_6.jpg"></img>
 
 
