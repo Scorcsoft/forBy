@@ -6,9 +6,9 @@
 # 开始使用
 本工具使用Python3 + PyQt5开发，在开始使用前，请确保已经安装了相关模块：
 
-<code lang="shell">
+```
 pip3 install -r requirements.txt
-</code>
+```
 
 # 如果你无法正常安装第三方模块，请查看Release中已经打包好的可执行文件。
 
@@ -48,9 +48,9 @@ pip3 install -r requirements.txt
 ### 解析网站上的 .DS_Store (支持递归)
 左侧菜单选取 .DS_Store 解析模块，进入 .DS_Store 解析功能。 在输入框中输入已知的 .DS_Store 文件的URL，例如：
 
-<code lang="shell">
+```
 http://127.0.0.1:8000/.DS_Store
-</code>
+```
 
 然后点击开始按钮 .DS_Store 解析模块就会尝试下载并递归解析 .DS_Store 文件，尽可能还原网站目录：
 
